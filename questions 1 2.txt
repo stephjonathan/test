@@ -5,4 +5,12 @@
 
 
 2. How do you add validation and error messages to the form?
-By using script and containers for error messages.
+
+Validation
+- HTML input required="required" attribute (only checks for empty inputs)
+- JavaScript (client-side validation, not recommended as JS can be disabled)
+- Server-side script (PHP/JSP/etc.)
+
+Error messages
+- Alert
+- Container for error messages
