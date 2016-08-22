@@ -11,8 +11,9 @@
   </head>
 
   <body>
+  <div class="container">
   <!-- logo, button -->
-    <div class="row valign-wrapper">
+    <div class="row">
     <!-- Logo -->
       <div class="col s12 l8">
         <a href="http://www.sociolla.com/" title="Sociolla">
@@ -20,17 +21,25 @@
         </a>
       </div>
 
-      <div class="col s12 l4 valign">
+      <form action="companyProfile" method="post" id="companyProfileForm" name="companyProfileForm">
+      <div class="col s6 l2 right-align">
+        <button type="submit" class="btn" name="submit" id="submit">Submit</button>
+      </div>
+      <div class="col s6 l2 right-align">
+        <button type="reset" class="btn" name="cancel" id="cancel">Cancel</button>
+      </div>
+
+      <!-- <div class="col s12 l4 valign">
         <form action="companyProfile" method="post" id="companyProfileForm" name="companyProfileForm">
-        <div class="row right-align valign-wrapper">
-          <div class="col s12 l6 valign">
+        <div class="row right-align valign-wrapper hide-on-med-and-low">
+          <div class="col l6 valign">
             <button type="submit" class="btn" name="submit" id="submit">Submit</button>
           </div>
-          <div class="col s12 l6 valign">
+          <div class="col l6 valign">
             <button type="reset" class="btn" name="cancel" id="cancel">Cancel</button>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
 
   <!-- forms -->
@@ -149,6 +158,7 @@
 <!-- End of Ask Us -->
       </form>
     </div>
+  </div>
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
