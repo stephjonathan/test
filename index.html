@@ -13,16 +13,16 @@
   <body>
   <!-- logo, button -->
     <div class="row valign-wrapper">
-      <div class="col s8">
+      <div class="col s12 l8">
         <h3>LOGO</h3>
       </div>
-      <div class="col s4 valign">
+      <div class="col s12 l4 valign">
         <form action="companyProfile" method="post" id="companyProfileForm" name="companyProfileForm">
         <div class="row right-align valign-wrapper">
-          <div class="col s6 valign">
+          <div class="col s12 l6 valign">
             <button type="submit" class="btn" name="submit" id="submit">Submit</button>
           </div>
-          <div class="col s6 valign">
+          <div class="col s12 l6 valign">
             <button type="reset" class="btn" name="cancel" id="cancel">Cancel</button>
           </div>
         </div>
@@ -32,7 +32,7 @@
   <!-- forms -->
     <div class="row">
       <!-- <form action="" method="post" id="companyProfileForm" name="companyProfileForm" class="col s5"> -->
-      <div class="col s5">
+      <div class="col s12 m5">
 <!-- Name -->
         <div class="row">
           <div class="input-field col s12">
@@ -51,90 +51,95 @@
 <!-- End of Description -->
 <!-- Address -->
         <div class="row">
-          <div class="fieldset col s12">
-            <legend>Address</legend>
+          <div class="col s12">
+            <fieldset>
+              <legend>Address</legend>
   <!-- Street -->
-            <div class="row">
-              <div class="input-field col s12">
-                <input id="street" type="text" class="validate">
-                <label for="street">Street</label>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="street" type="text" class="validate">
+                  <label for="street">Street</label>
+                </div>
               </div>
-            </div>
+  <!-- End of Street -->
   <!-- City -->
-            <div class="row">
-              <div class="input-field col s12">
-                <input id="city" type="text" class="validate">
-                <label for="city">City</label>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="city" type="text" class="validate">
+                  <label for="city">City</label>
+                </div>
               </div>
-            </div>
-            <!-- End of City -->
+  <!-- End of City -->
   <!-- Province, Postal Code -->
-            <div class="row">
+              <div class="row">
     <!-- Province -->
-              <div class="input-field col s7">
-                <select>
-                  <option value="" disabled selected>Province</option>
-                  <option value="1">Option 1</option>
-                  <option value="2">Option 2</option>
-                  <option value="3">Option 3</option>
-                </select>
-                <label>Province</label>
-              </div>
+                <div class="input-field col s7">
+                  <select>
+                    <option value="" disabled selected>Province</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                  </select>
+                  <label>Province</label>
+                </div>
     <!-- Postal Code -->
-              <div class="input-field col s5">
-                <input id="postalCode" type="text" class="validate">
-                <label for="postalCode">Postal Code</label>
+                <div class="input-field col s5">
+                  <input id="postalCode" type="text" class="validate">
+                  <label for="postalCode">Postal Code</label>
+                </div>
               </div>
-            </div>
   <!-- End of Province, Postal Code -->
+            </fieldset>
           </div>
         </div>
 <!-- End of Address -->
       </form>
       </div>
 
-      <form action="askUs" method="post" id="askUsForm" name="askUsForm" class="col s7">
+      <form action="askUs" method="post" id="askUsForm" name="askUsForm" class="col s12 m7">
 <!-- Ask Us -->
         <div class="row">
-          <div class="fieldset col s12">
-            <legend>Ask Us</legend>
+          <div class="col s12">
+            <fieldset>
+              <legend>Ask Us</legend>
 
 <!-- Division -->
-            <div class="row">
-              <div class="input-field col s5">
-                <select>
-                  <option value="" disabled selected>Division</option>
-                  <option value="1">Option 1</option>
-                  <option value="2">Option 2</option>
-                  <option value="3">Option 3</option>
-                </select>
-                <label>Division</label>
+              <div class="row">
+                <div class="input-field col s5">
+                  <select>
+                    <option value="" disabled selected>Division</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                  </select>
+                  <label>Division</label>
+                </div>
               </div>
-            </div>
   <!-- End of Division -->
   <!-- Name -->
-            <div class="row">
-              <div class="input-field col s10">
-                <input id="name" type="text" class="validate">
-                <label for="name">Name</label>
+              <div class="row">
+                <div class="input-field col s10">
+                  <input id="name" type="text" class="validate">
+                  <label for="name">Name</label>
+                </div>
               </div>
-            </div>
   <!-- End of Name -->
   <!-- Questions -->
-            <div class="row">
-              <div class="input-field col s10">
-                <textarea id="questions" class="materialize-textarea"></textarea>
-                <label for="questions">Questions</label>
+              <div class="row">
+                <div class="input-field col s10">
+                  <textarea id="questions" class="materialize-textarea"></textarea>
+                  <label for="questions">Questions</label>
+                </div>
               </div>
-            </div>
   <!-- End of Questions -->
   <!-- Send Button -->
-            <div class="row">
-              <div class="col s10">
-                <button type="submit" class="btn" name="send" id="send">Send</button>
+              <div class="row">
+                <div class="col s10">
+                  <button type="submit" class="btn" name="send" id="send">Send</button>
+                </div>
               </div>
-            </div>
   <!-- End of Send Button -->
+            </fieldset>
           </div>
         </div>
 <!-- End of Ask Us -->
