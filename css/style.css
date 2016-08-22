@@ -1,11 +1,14 @@
 .container {
   margin: 1% auto;
   max-width: 1280px;
-  width: 95%;
+  width: 94%;
 }
 
 .btn{
 	background-color: rgb(235, 58, 95) !important;
+}
+.waves-effect.waves-dark-pink .waves-ripple {
+  background-color: rgba(213,22,62, 0.7);
 }
 
 .dropdown-content li > a, .dropdown-content li > span {
