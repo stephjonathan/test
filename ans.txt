@@ -1,0 +1,8 @@
+1. How do you prevent the user from submitting the form prematurely when the user hit enter?
+
+- By not using autofocus so no fields are being focused on since the beginning of page load
+- By using validations to make sure fields are not empty before submitting
+
+
+2. How do you add validation and error messages to the form?
+By using script and containers for error messages.
