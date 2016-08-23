@@ -8,9 +8,9 @@
 
 Validation
 - HTML input required="required" attribute (only checks for empty inputs)
-- JavaScript (client-side validation, not recommended as JS can be disabled)
-- Server-side script (PHP/JSP/etc.)
+- Client-side validation (JavaScript including AJAX/JQuery) though it won't work if JavaScript is disabled on the client
+- Server-side validation (PHP/JSP/etc. depends on the server-side script used)
 
 Error messages
-- Alert
-- Container for error messages
+- Alert (not user-friendly)
+- Containers for error messages
