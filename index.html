@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+			<a class="site-logo" href="http://www.sociolla.com/" title="Sociolla">
+				<img class="logo img-responsive" src="http://img.sociolla.com/img/sociolla-1451533301.jpg" alt="Sociolla" style="width:170px;">
+			</a>
+			</div>
+
+			<form method="post" name="companyProfileForm" id="companyProfileForm" action="">
+			<div style="margin-top:10px">
+				<div class="col-md-2">
+					<button type="submit" class="btn btn-primary pull-right ">Submit</button>
+				</div>
+				<div class="col-md-2">
+					<button type="reset" class="btn btn-primary pull-right ">Cancel</button>
+				</div>
+			</div>
+
+			
+		</div>
+		<div class="row" style="padding-top: 5%;">
+			<div class="col-md-5">
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="description">Description</label>
+					<textarea name="description" id="description" class="form-control" rows="8"></textarea>
+				</div>
+				<fieldset>
+					<legend>Address</legend>
+					<div class="form-group">
+						<label for="street">Street</label>
+						<input type="text" name="street" id="street" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="city">City</label>
+						<input type="text" name="city" id="city" class="form-control">
+					</div>
+					<div class="row">
+						<div class="form-group col-xs-5">
+							<label for="province">Province</label>
+							<select class="form-control" name="province" id="province">
+								<option value="">Province</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+							</select>
+						</div>
+						<div class="form-group col-xs-7">
+							<label for="postalCode">Postal Code</label>
+							<input type="text" name="postalCode" id="postalCode" class="form-control">
+						</div>
+					</div>
+				</fieldset>
+			</div>
+			</form>
+			<div class="col-md-7">
+				<form method="post" name="askUs" id="askUs" action="">
+					<fieldset>
+						<legend>Ask Us</legend>
+						<div class="row">
+							<div class="form-group col-xs-4">
+								<label for="division">Division</label>
+								<select class="form-control" name="division" id="division">
+									<option value="technology">Technology</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<div class="form-group col-xs-10">
+								<label for="name">Name</label>
+								<input type="text" name="name" id="name" class="form-control">
+							</div>
+						</div>
+						<div class="row">
+							<div class="form-group col-xs-10">
+								<label for="questions">Questions</label>
+								<textarea name="questions" id="questions" class="form-control" rows="8"></textarea>
+							</div>
+						</div>
+						<div class="form-group pull-left">
+							<button type="submit" class="btn btn-primary pull-right">Send</button>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+
+			
+		</div>
+	</div>
+
+</body>
+</html>
