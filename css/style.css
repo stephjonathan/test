@@ -1,3 +1,11 @@
+.container{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 90vw;
+}
+
 a {
     color: #000000;
 }
@@ -20,20 +28,7 @@ legend {
 textarea{
     resize: vertical;
 }
-/*
-.valign-wrapper {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
 
-.valign-wrapper .valign {
-  display: block;
-}
-*/
 .btn{
 	border-radius: 0px;
 	/*padding: -4px;*/
